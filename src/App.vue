@@ -50,8 +50,8 @@ body {
   background-image: linear-gradient(
     to right bottom,
     rgba(110, 179, 239, 0.795),
-    rgba(43, 104, 158, 0.808))
-    , url(./assets/chuck_norris.png);
+    rgba(43, 104, 158, 0.808)),
+    url(./assets/chucknorris.png);
   background-repeat: no-repeat;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%)
