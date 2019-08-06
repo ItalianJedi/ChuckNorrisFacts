@@ -2,7 +2,8 @@
   <div>
     <button v-on:click="norrisJoke()">Click Me</button>
     <transition name="fade">
-      <div class="joke" v-if="currentJoke">{{currentJoke.joke}}</div>
+      <!--<div class="joke" v-if="currentJoke">{{currentJoke.joke}}</div>-->
+      <div class="joke" v-html="currentJoke.joke"></div>
     </transition>
   </div>
 </template>
