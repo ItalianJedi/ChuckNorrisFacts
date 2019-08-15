@@ -86,4 +86,20 @@ button:active {
   margin-right: auto;
   background: #edf4fa;
 }
+
+@media only screen and (max-width: 500px) {
+  .joke {
+  font-size: 10px;
+  font-weight: bold;
+  border: ridge gray;
+  width: 250px;
+  padding: 10px;
+  margin: 60px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #edf4fa;
+}
+}
+
 </style>
