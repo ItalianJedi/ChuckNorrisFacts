@@ -87,7 +87,11 @@ button:active {
   background: #edf4fa;
 }
 
-@media only screen and (max-width: 500px) {
+/*Phone screens*/
+@media only screen 
+  and (min-width: 320px)
+  and (max-width: 700px)
+  and (-webkit-min-device-pixel-ratio: 2) {
   .joke {
   font-size: 10px;
   font-weight: bold;
@@ -96,6 +100,28 @@ button:active {
   padding: 10px;
   margin: 60px;
   margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #edf4fa;
+}
+}
+
+/*Tablet Screens*/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  button {
+    margin-top: 500px;
+  }
+  .joke {
+  font-size: 10px;
+  font-weight: bold;
+  border: ridge gray;
+  width: 250px;
+  padding: 10px;
+  margin: 90px;
+  margin-top: 95px;
   margin-left: auto;
   margin-right: auto;
   background: #edf4fa;

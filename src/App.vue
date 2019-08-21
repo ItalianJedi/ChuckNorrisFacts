@@ -54,7 +54,7 @@ body {
     url('./assets/chucknorris.png');
   background-repeat: no-repeat;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%)
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%)
 }
 
 .text-box {
