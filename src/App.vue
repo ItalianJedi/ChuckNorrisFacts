@@ -8,6 +8,9 @@
         <chuck-norris/>
       </div>
     </header>
+    <div class="fav-facts-container">
+      <h2>Favorite Facts!</h2>
+    </div>
   </div>
 </template>
 
@@ -70,5 +73,25 @@ body {
   text-align: center;
   color: #2c3e50;
   /*margin-top: 15px;*/
+}
+
+.fav-facts-container {
+  display: inline-block;
+  background: #E7EAEC;
+  height: 95vh;
+  width: 85%;
+  margin-top: 30px;
+  opacity: 0.5;
+  background-image: 
+    url('./assets/explosion2.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+h2 {
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 60px;
+  font-color: black;
+  margin-top: 30px;
 }
 </style>

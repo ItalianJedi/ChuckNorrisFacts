@@ -88,7 +88,7 @@ button:active {
 }
 
 /*Phone screens*/
-@media only screen 
+@media only screen
   and (min-width: 320px)
   and (max-width: 700px)
   and (-webkit-min-device-pixel-ratio: 2) {

@@ -10,6 +10,7 @@ I am using Vue.js for this project and practicing CSS styling.
 
 8/21/2019 - Adjusted media queries for tablets and phones. Also adjusted the clip-path slightly.
 
+8/28/2019 - added a favorites section
 Todos:
 -fix background image
 -add a favorite jokes section
